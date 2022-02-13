@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="vendors/logo.png" type="image/ico" />
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Colo Shop Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" href="style-product.css">
+</head>
+
+<body>
+    <div class="homepage" style="margin-top: 10rem;">
+        <div class="homepage-top homepage-sticky">
+            <div class="navbar">
+                <ul class="navbar-links">
+                    <li class="nav-link">
+                        <a href="#" class="notify-icon">
+                            <img src="vendors/pngegg.png" class="svg-icon icon-notificaiton">
+                            <span class="_tb">Thông báo</span>
+                        </a>
+                    </li>
+                    <a href="help.html" class="nav-link">
+                        <div class="helpcenter-icon">
+                            <svg heigth="16" viewBox="0 0 16 16" width="16" class="svg-icon icon-help-center">
+                                <g fill="none">
+                                    <circle cx="7" cy="8" r="7" stroke="currentColor"></circle>
+                                    <path fill="currentColor"
+                                        d="m6.871 3.992c-.814 0-1.452.231-1.914.704-.462.462-.693 1.089-.693 1.892h1.155c0-.484.099-.858.297-1.122.22-.319.583-.473 1.078-.473.396 0 .715.11.935.33.209.22.319.517.319.902 0 .286-.11.55-.308.803l-.187.209c-.682.605-1.1 1.056-1.243 1.364-.154.286-.22.638-.22 1.045v.187h1.177v-.187c0-.264.055-.506.176-.726.099-.198.253-.396.462-.572.517-.451.825-.737.924-.858.275-.352.418-.803.418-1.342 0-.66-.22-1.188-.66-1.573-.44-.396-1.012-.583-1.716-.583zm-.198 6.435c-.22 0-.418.066-.572.22-.154.143-.231.33-.231.561 0 .22.077.407.231.561s.352.231.572.231.418-.077.572-.22c.154-.154.242-.341.242-.572s-.077-.418-.231-.561c-.154-.154-.352-.22-.583-.22z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <span class="nav-link_text">Hỗ trợ</span>
+                        </div>
+                    </a>
+                    <a href="register.html" class="nav-link nav-link_text">Đăng ký</a>
+                    <div class="nav-link_seperator"></div>
+                    <a href="login.html" class="nav-link nav-link_text">Đăng nhập</a>
+                </ul>
+            </div>
+            <div class="logopage-search">
+
+                <a href="homepage.html" class="logo-section">
+                    <img src="vendors/logo.png" class="logo-img">
+                    <span class="logo-name">Ben10</span>
+                </a>
+
+                <div class="search-section">
+                    <div class="upper">
+                        <div class="searchbar">
+                            <div class="searchbar-main">
+                                <div class="searchbar-input">
+                                    <input type="search" placeholder="Search..." class="searchbar-input-2">
+                                </div>
+                            </div>
+
+                            <button type="button" class="btn-search">
+                                <a href="#">
+                                    <img src="vendors/search.png" class="search-icon">
+                                </a>
+                            </button>
+                        </div>
+                        <div class="bag-wrapper">
+                            <a href="cart.html">
+                                <img src="vendors/bag.png" class="bag-icon">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-catogaries">
+                        <div class="catogaries">
+                            <a href="#" class="quick-links">Thời trang nữ</a>
+                            <a href="#" class="quick-links">Thời trang nam</a>
+                            <a href="#" class="quick-links">Thể thao</a>
+                            <a href="#" class="quick-links">Điện tử</a>
+                            <a href="#" class="quick-links">Phụ kiện</a>
+                            <a href="#" class="quick-links">Sức khỏe</a>
+                            <a href="#" class="quick-links">Làm đẹp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="down">
+                    <ul class="navbar-down">
+                        <li><a href="homepage.html" class="labels-item">Trang chủ</a></li>
+                        <li><a href="#" class="labels-item">Bộ sưu tập</a></li>
+                        <li><a href="products.html" class="labels-item current-page">Sản phẩm</a></li>
+                        <li><a href="human.html" class="labels-item">Nhân sự</a></li>
+                        <li><a href="contact.html" class="labels-item">Liên hệ</a></li>
+                        <li><a href="help.html" class="labels-item">Hỗ trợ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-product">
+            <div class="wrapper-product">
+                <div class="content-product">
+                    <div class="col span-4-of-12">
+                        <div class="sidebar">
+                            <div class="sidebar-title">Danh Mục</div>
+                            <ul class="sidebar-category">
+                                <li><a href="">Thời trang nam</a></li>
+                                <li><a href="">Thời trang nữ</a></li>
+                                <li><a href="">Phụ kiện</a></li>
+                                <li><a href="">Giày dép nam</a></li>
+                                <li><a href="">Giày dép nữ</a></li>
+                                <li><a href="">Sắc đẹp</a></li>
+                                <li><a href="">Sức khỏe</a></li>
+                                <li><a href="">Thiết bị điện tử</a></li>
+                                <li><a href="">Máy tính & laptop</a></li>
+                                <li><a href="">Đồng hồ</a></li>
+                                <li><a href="">Đồ chơi</a></li>
+                                <li><a href="">Thời trang trẻ em</a></li>
+                                <li><a href="">Balo & túi ví nam</a></li>
+                                <li><a href="">Phụ kiện và trang sức nữ</a></li>
+                                <li><a href="">Thiết bị điện gia dụng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col span-8-of-12">
+                        <div class="container">
+                            <div class="x-title">
+                                <div class="text-center">
+                                    <h2>Tất Cả</h2>
+                                </div>
+                            </div>
+                            <div class="product-list">
+                                <div class="product-grid">
+                                    <!-- Product 1 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product16-1.jpg"
+                                                        style="width:100%;" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-20%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="_0ol9DQ">
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Đồng Hồ Nam Chính Hãng Dây Thép Lưới Đen ECONOMICXI</a></h6>
+                                                        <div class="product_price">$57.60<span>$72.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 2 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product9-1.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-40%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Túi đeo chéo cho nữ dễ thương</a></h6>
+                                                        <div class="product_price">$39.00<span>$65.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 3 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product20-1.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-50%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Balo chống trộm Compacto thế hệ mới - Mark Ryden</a></h6>
+                                                        <div class="product_price">$43.00<span>$86.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 4 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product15.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-17%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Ốp điện thoại cute</a></h6>
+                                                        <div class="product_price">$100.00<span>$120.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 5 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product25.jpg" alt="">
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Đồ chơi bàn vẽ thông minh có máy chiếu hình ảnh cho bé tập tô vẽ sáng tạo</a></h6>
+                                                        <div class="product_price">$50.00<span></span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 6 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product31.jpg" alt="">
+                                                    <!-- <div class="_2hG8Jk">
+                                                            <div class="_4ytH7A _11rEeE">
+                                                                <span>-20%</span>
+                                                            </div>
+                                                        </div> -->
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Ví Nam Đứng, Bóp Nam Dáng Đứng Nhỏ Gọn Sang Trọng, Da Bò Thật 100%</a></h6>
+                                                        <div class="product_price">$90.00<span></span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 7 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product28.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-49%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">BỘ ĐỒ CHƠI RÚT GỖ 48 MIẾNG LOẠI LỚN</a></h6>
+                                                        <div class="product_price">$63.24<span>$124.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 8 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product13.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-31%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Ốp điện thoại dành cho máy iPhone X/XS - Vũ trụ qua nét vẽ MS ACTDA009</a></h6>
+                                                        <div class="product_price">$67.62<span>$98.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 9 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product37.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-40%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Bộ đồ trẻ em mùa hè hot - bé gái/trai vải cotton co giãn 4 chiều</a></h6>
+                                                        <div class="product_price">$45.00<span>$75.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 10 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product39.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-10%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Túi đeo chéo thời trang cho nam và nữ kiểu mới chữ DEAVU.196</a></h6>
+                                                        <div class="product_price">$27.00<span>$30.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 11 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/dientu-laptop/product4.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-29%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Adapter thẻ nhớ chuyển đổi thẻ nhớ Micro SD (TF) sang SD</a></h6>
+                                                        <div class="product_price">$109.34<span>$154.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 12 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/dientu-laptop/product6.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-20%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Tai Nghe Không Dây PROLINK PHB6003E Đen Đỏ</a></h6>
+                                                        <div class="product_price">$30.00<span>$590.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 13 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/dientu-laptop/product8.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-15%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Tai Nghe Nhét Tai TOPK F20 Chống Ồn</a></h6>
+                                                        <div class="product_price">$49.30<span>$58.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 14 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product10-1.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-30%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Túi sách nữ thời trang Hàn
+                                                                Quốc trẻ trung</a></h6>
+                                                        <div class="product_price">$70.00<span>$100.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 15 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product7-1.jpg" alt="">
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">Gọng kính tròn thời trang</a></h6>
+                                                        <div class="product_price">$30.00<span>$590.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Product 16 -->
+                                    <div class="product-item">
+                                        <a href="#">
+                                            <div class="_8U-Out _8Ht5gI">
+                                                <div class="_9eK7Hy _2bML4f">
+                                                    <img src="vendors/images/others/product3.jpg" alt="">
+                                                    <div class="_2hG8Jk">
+                                                        <div class="_4ytH7A _11rEeE">
+                                                            <span>-60%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_5gUO8e">
+                                                        <div class="_9qWs0a _11VbCx">
+                                                            <span>new</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="product_info">
+                                                        <h6 class="product_name"><a href="">[CHÍNH HÃNG] Túi sách da nữ </a></h6>
+                                                        <div class="product_price">$36.00<span>$90.00</span></div>
+                                                    </div>
+                                                    <div class="red_button add_to_cart_button">
+                                                        <a href="#">thêm vào giỏ hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination-bar">
+                                <div class="pagination">
+                                    <a href="products.html">«</a>
+                                    <a href="products.html">1</a>
+                                    <a class="active" href="#">2</a>
+                                    <a href="#">3</a>
+                                    <a href="#">4</a>
+                                    <a href="#">5</a>
+                                    <a href="#">6</a>
+                                    <a href="#">»</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>
+                    Copyright &copy; by Ben10 TEAM
+                </p>
+            </footer>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
